@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Villa-Gene Properties — Find your perfect property.">
+  <title>Villa-Gene Properties</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar container">
+      <a class="brand" href="#">
+        <img src="Villa-Gene-Properties-Logo(1).svg" alt="Villa-Gene Properties">
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+      <div class="nav-links">
+        <a class="active" href="#">Home</a>
+        <a href="#properties">Buy</a>
+        <a href="#properties">Rent</a>
+        <a href="#sell">Sell</a>
+        <a href="#agents">Agents</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Favorites">♥</button>
+        <button class="icon-btn" aria-label="Account">♙</button>
+        <a class="btn btn-green btn-small" href="#">Sign In / Register</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR DREAM HOME AWAITS</p>
+        <h1>Find the Perfect<br>Property, <span style="font-size: 63px;">Anywhere.</span></h1>
+        <p class="hero-text">
+          Discover the best homes for sale and rent. Whether you're
+          buying, renting, or investing, we make it simple, fast and secure.
+        </p>
+
+        <div class="search-tabs">
+          <button class="tab active">Buy</button>
+          <button class="tab">Rent</button>
+          <button class="tab">Sell</button>
+        </div>
+
+        <form class="search-box">
+          <label>
+            <span class="field-icon">⌖</span>
+            <input type="text" placeholder="Enter location">
+          </label>
+          <label>
+            <span class="field-icon">⌂</span>
+            <select>
+              <option>Property type</option>
+              <option>House</option>
+              <option>Apartment</option>
+              <option>Villa</option>
+              <option>Commercial</option>
+              <option>Land</option>
+            </select>
+          </label>
+          <label>
+            <span class="field-icon">₦</span>
+            <select>
+              <option>Price range</option>
+              <option>₦10,000,000 - ₦50,000,000</option>
+              <option>₦50,000,000 - ₦100,000,000</option>
+              <option>₦100,000,000+</option>
+            </select>
+          </label>
+          <button class="btn btn-green search-btn" type="submit">⌕&nbsp; Search</button>
+        </form>
+      </div>
+
+    
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section container" id="properties">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow green-text">FEATURED PROPERTIES</p>
+          <h2>Popular Properties</h2>
+        </div>
+        <a class="view-all" href="#">View All Properties →</a>
+      </div>
+
+      <div class="property-grid">
+        <article class="property-card">
+          <div class="property-image image-1">
+            <span class="badge sale">For Sale</span>
+            <button class="heart">♡</button>
+          </div>
+          <div class="property-info">
+            <strong class="price">₦450,000,000</strong>
+            <h3>Luxury 4 Bedroom Duplex</h3>
+            <p class="location">⌖ Lekki, Lagos</p>
+            <div class="property-meta"><span>▣ 4</span><span>♙ 4</span><span>▤ 350 m²</span></div>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image image-2">
+            <span class="badge rent">For Rent</span>
+            <button class="heart">♡</button>
+          </div>
+          <div class="property-info">
+            <strong class="price">₦1,200,000/month</strong>
+            <h3>2 Bedroom Apartment</h3>
+            <p class="location">⌖ Victoria Island, Lagos</p>
+            <div class="property-meta"><span>▣ 2</span><span>♙ 2</span><span>▤ 120 m²</span></div>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image image-3">
+            <span class="badge sale">For Sale</span>
+            <button class="heart">♡</button>
+          </div>
+          <div class="property-info">
+            <strong class="price">₦320,000,000</strong>
+            <h3>3 Bedroom Detached House</h3>
+            <p class="location">⌖ Ikeja, Lagos</p>
+            <div class="property-meta"><span>▣ 3</span><span>♙ 3</span><span>▤ 250 m²</span></div>
+          </div>
+        </article>
+
+        <article class="property-card">
+          <div class="property-image image-4">
+            <span class="badge rent">For Rent</span>
+            <button class="heart">♡</button>
+          </div>
+          <div class="property-info">
+            <strong class="price">₦2,500,000/month</strong>
+            <h3>5 Bedroom Mansion</h3>
+            <p class="location">⌖ Ajah, Lagos</p>
+            <div class="property-meta"><span>▣ 5</span><span>♙ 5</span><span>▤ 600 m²</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="category-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow green-text">PROPERTY CATEGORIES</p>
+            <h2>Explore by Category</h2>
+          </div>
+          <p class="heading-note">From cozy apartments to luxurious villas,<br>we have a wide range of properties to suit your needs.</p>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card" href="#"><span>⌂</span><b>Houses</b><small>View properties →</small></a>
+          <a class="category-card" href="#"><span>▥</span><b>Apartments</b><small>View properties →</small></a>
+          <a class="category-card" href="#"><span>⌂</span><b>Villas</b><small>View properties →</small></a>
+          <a class="category-card" href="#"><span>▥</span><b>Commercial</b><small>View properties →</small></a>
+          <a class="category-card" href="#"><span>♧</span><b>Land</b><small>View properties →</small></a>
+        </div>
+      </div>
+    </section>
+    <section class="section container why-section" id="about">
+      <div class="why-image"></div>
+
+      <div class="why-content">
+        <p class="eyebrow green-text">WHY CHOOSE US</p>
+        <h2>More Than Just a Property Platform</h2>
+
+        <div class="benefit-grid">
+          <div class="benefit"><span>♧</span><div><b>Verified Listings</b><p>All properties are verified for your safety.</p></div></div>
+          <div class="benefit"><span>♙</span><div><b>Wide Selection</b><p>Thousands of properties in prime locations.</p></div></div>
+          <div class="benefit"><span>♙</span><div><b>Trusted Agents</b><p>Work with experienced and certified agents.</p></div></div>
+          <div class="benefit"><span>◷</span><div><b>24/7 Support</b><p>We're always here to help.</p></div></div>
+          <div class="benefit"><span>◇</span><div><b>Secure Transactions</b><p>Your information and payments are protected.</p></div></div>
+          <div class="benefit"><span>✓</span><div><b>Easy & Fast</b><p>Find your dream home in just a few clicks.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="steps-section">
+      <div class="container">
+        <p class="eyebrow green-text">HOW IT WORKS</p>
+        <h2>Find Your Dream Home in 4 Simple Steps</h2>
+
+        <div class="steps-grid">
+          <div class="step"><span class="number">1</span><div class="step-icon">⌕</div><b>Search</b><p>Browse through our wide range of properties and filters.</p></div>
+          <i>→</i>
+          <div class="step"><span class="number">2</span><div class="step-icon">▣</div><b>Schedule a Viewing</b><p>Book a visit at your preferred time and location.</p></div>
+          <i>→</i>
+          <div class="step"><span class="number">3</span><div class="step-icon">▤</div><b>Make an Offer</b><p>Submit your offer and negotiate with the agent.</p></div>
+          <i>→</i>
+          <div class="step"><span class="number">4</span><div class="step-icon">⌂</div><b>Move In</b><p>Get the keys and start your new chapter!</p></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section container">
+      <p class="eyebrow green-text">TESTIMONIALS</p>
+      <h2>What Our Clients Say</h2>
+
+      <div class="testimonial-grid">
+        <article class="testimonial"><div class="avatar">EJ</div><div><p>“Villa-Gene made my home search so easy! The platform is user-friendly, and the agents are very professional.”</p><b>Emeka Johnson</b><small>Lagos</small><strong class="stars">★★★★★</strong></div></article>
+        <article class="testimonial"><div class="avatar">AO</div><div><p>“I found my dream apartment within days. The entire process was smooth and stress-free. Highly recommend!”</p><b>Adaeze Okafor</b><small>Abuja</small><strong class="stars">★★★★★</strong></div></article>
+        <article class="testimonial"><div class="avatar">TA</div><div><p>“Excellent service! The team was very helpful and responsive. I couldn't have asked for a better experience.”</p><b>Tunde Adebayo</b><small>Kwara</small><strong class="stars">★★★★★</strong></div></article>
+      </div>
+    </section>
+    <section class="cta container">
+      <div class="cta-icon">⌂</div>
+      <div><small>READY TO FIND YOUR PERFECT PROPERTY?</small><h3>Join thousands of happy homeowners today.</h3></div>
+      <a class="btn btn-green" href="#">Get Started →</a>
+    </section>
+
+   
+  </main>
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="villa2.png" alt="Villa-Gene Properties">
+        <p>Better Homes. Brighter Futures.</p>
+      </div>
+
+      <div><h4>Quick Links</h4><a href="#">Home</a><a href="#">Buy</a><a href="#">Rent</a><a href="#">Sell</a></div>
+      <div><h4>Resources</h4><a href="#">Blog</a><a href="#">FAQ</a><a href="#">Contact</a><a href="#">Privacy Policy</a></div>
+      <div><h4>Follow Us</h4><div class="socials"><a href="#">f</a><a href="#">𝕏</a><a href="#">◎</a><a href="#">in</a><a href="#">▶</a></div></div>
+
+      <div class="newsletter">
+        <h4>Subscribe to our newsletter</h4>
+        <form><input type="email" placeholder="Enter your email address"><button type="submit">Subscribe</button></form>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 Villa-Gene Properties. All rights reserved.</span>
+      <span>Building better communities, one home at a time.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1447 1087"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Villa-Gene Properties</title>
+  <desc id="desc">Villa-Gene Properties logo with a green shield mark and white wordmark.</desc>
+
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D27A"/>
+      <stop offset="1" stop-color="#00A85F"/>
+    </linearGradient>
+
+    <filter id="greenGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feFlood flood-color="#00D27A" flood-opacity=".42"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#FFFFFF" flood-opacity=".22"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Green shield mark -->
+  <g filter="url(#greenGlow)">
+    <path fill="url(#green)" d="
+      M 92,332
+      C 145,300 205,274 275,260
+      C 342,247 408,247 475,260
+      C 545,274 605,300 658,332
+      L 658,474
+      C 658,620 584,762 475,866
+      L 375,960
+      L 275,866
+      C 166,762 92,620 92,474
+      Z"/>
+
+    <!-- Inner shield / G mark -->
+    <path fill="none" stroke="#59E8A8" stroke-width="48" stroke-linejoin="round" d="
+      M 232,388
+      C 292,357 355,347 418,359
+      C 464,367 503,383 540,405
+      L 540,518
+      C 540,599 493,678 425,741
+      L 375,787
+      L 325,741
+      C 257,678 210,599 210,518
+      L 210,414
+      C 217,405 224,396 232,388 Z"/>
+
+    <!-- Central G/leaf -->
+    <path fill="#59E8A8" d="
+      M 294,490
+      C 322,470 350,460 375,460
+      C 400,460 428,470 456,490
+      L 375,617
+      Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g fill="#FFFFFF" filter="url(#textGlow)"
+     font-family="Inter, Arial, Helvetica, sans-serif"
+     font-weight="800">
+    <text x="585" y="510" font-size="112" letter-spacing="-4">Villa-Gene</text>
+    <text x="585" y="660" font-size="112" letter-spacing="-4">Properties</text>
+  </g>
+</svg>
