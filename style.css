@@ -60,7 +60,7 @@ button { cursor: pointer; border: 0; }
   
 }
 
-.brand { width: 215px; display: flex; align-items: center;  }
+.brand { width: 205px; display: flex; align-items: center;  }
 
 .brand img { width: 100%; height: auto; display: block; box-shadow: rgba(1, 72, 1, 0.17); margin-left: 130px; }
 
@@ -111,7 +111,7 @@ button { cursor: pointer; border: 0; }
   padding-bottom: 45px;
 }
 
-.hero-copy { max-width: 650px; padding-top: 150px; }
+.hero-copy { max-width: 650px; padding-top: 70px; }
 .eyebrow { font-size: 19px; font-weight: 800; letter-spacing: 1.1px; margin-bottom: 45px; color: #00c978;}
 .green-text { color: var(--green-dark); }
 
