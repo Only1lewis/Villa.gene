@@ -254,7 +254,7 @@ p { color: var(--muted); }
   .about-hero-overlay { background: rgba(255,255,255,.88); }
   .about-hero-copy { max-width: 100%; }
   .about-hero h1 { font-size: 40px; }
-  .story-gallery { height: 270px;   }
+  .story-gallery { height: 280px; margin-bottom: 450px;    }
   .mission-grid { grid-template-columns: 1fr; gap: 18px; }
   .mission-item { border-right: 0; border-bottom: 1px solid var(--border); padding-bottom: 18px; }
   .mission-item:last-child { border-bottom: 0; }
